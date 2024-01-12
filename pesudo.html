@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesudo Position</title>
+    <style>
+        h3 {
+            color: peru;
+        }
+
+        h3:hover {
+            color: tomato;
+            background-color: skyblue;
+        }
+
+        input:focus {
+            color: blue;
+            outline: 0;
+            border: 10px solid purple;
+        }
+
+        a:visited {
+            color: gray;
+        }
+        /*li:last-child{
+            color: red;
+        }*/
+        /*li:first-child{
+            color: red;
+        }*/
+        /*li:nth-child(2n){
+            color: blue;
+        }*/
+        li:nth-child(2n+1){
+            color: aquamarine;
+            background-color: black;
+        }
+
+    </style>
+</head>
+
+<body>
+    <h3>My Heading </h3>
+    <input type="text">
+    <input type="text">
+    <input type="text">
+    <br>
+    <a href="https://www.programming-hero.com/">programming Hero</a>
+    <a href="https://www.google.com/">Google</a>
+    <ul>
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+        <li>D</li>
+        <li>E</li>
+        <li>F</li>
+        <li>G</li>
+    </ul>
+</body>
+
+</html>
